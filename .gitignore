@@ -1,1 +1,8 @@
 node_modules
+cypress/videos/book-management.spec.js.mp4
+*.mp4
+*.mp4
+cypress/videos/book-management.spec.js.mp4
+cypress/videos/e2e.js.mp4
+cypress/videos/registration.spec.js.mp4
+cypress/videos/test-utils.js.mp4
