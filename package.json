@@ -1,10 +1,11 @@
 {
-  "name": "Trivago-test",
+  "name": "Talent-Space",
   "version": "1.0.0",
   "description": "",
   "main": "e2e.js",
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run",
+    "cy:open": "cypress open"
   },
   "repository": {
     "type": "git",

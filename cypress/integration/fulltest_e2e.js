@@ -1,6 +1,7 @@
 /// <reference types="cypress" />
 
 const username = 'MrMo';
+const password = 'adetinuoye8587';
 
 function registerUser() {
   // user should be able to click "register" button 
@@ -8,7 +9,7 @@ function registerUser() {
 
   cy.get("#username").type(username); // user should be able to choose a username
 
-  cy.get("#password").type("adetinuoye8587");
+  cy.get("#password").type(password);
 
   cy.get("button[type=submit]").click()
 }
@@ -19,7 +20,7 @@ function login() {
 
   cy.get("#username").type(username); // user should be able to choose a username
 
-  cy.get("#password").type("adetinuoye8587");
+  cy.get("#password").type(password);
 
   cy.get("button[type=submit]").click()
 }

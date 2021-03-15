@@ -1,4 +1,5 @@
 export const username = 'MrMo';
+export const password = 'adetinuoye8587';
 
 export function registerUser() {
   // user should be able to click "register" button 
@@ -6,7 +7,7 @@ export function registerUser() {
 
   cy.get("#username").type(username); // user should be able to choose a username
 
-  cy.get("#password").type("adetinuoye8587");
+  cy.get("#password").type(password);
 
   cy.get("button[type=submit]").click()
 }
@@ -17,12 +18,12 @@ export function login() {
 
   cy.get("#username").type(username); // user should be able to choose a username
 
-  cy.get("#password").type("adetinuoye8587");
+  cy.get("#password").type(password);
 
   cy.get("button[type=submit]").click()
 }
 
 export function logout() {
-  cy.get('.css-18dcnxc').click();
+  cy.get('.css-18dcnxc').click(); // would add a data-cy here, .css-18dcnxc looks like a class name that will change
   cy.get('h1').should('contain', 'My Library');
 }
