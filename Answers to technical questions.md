@@ -3,7 +3,9 @@
 
 #### 1. How long did you spend on the technical test? What would you add to your solution if you had more time? If you didn't spend much time on the technical test then use this as an opportunity to explain what you would add.
 
-Improvements:
+- It took me almost the whole day because i have been feeling sick the whole weekend.
+
+Improvements i will make if i had more time:
 - move the secrets (username, password) to the `cypres.env` file
 - add login and logout as Cypress Commands (https://docs.cypress.io/api/cypress-api/custom-commands.html)
 - add a tool for test case management, maybe [Cypress dashboard] (https://www.cypress.io/dashboard/)
@@ -20,7 +22,7 @@ Yes. In BetaFashion I was responsible for setting up the testing infrastrucutre 
 The steps I followed in order to make the project a success where:
 - 1. Define the test cases with the dev team
 - 2. Choose and end to end tool: Cypress
-- 3. Discussed test strategies  with the team and chose on: decided on using id's and data-cy as best practices
+- 3. Discussed test strategies  with the team : decided on using id's and data-cy as best practices indicates in cypress documentation
 - 4. Write tests (add missing selectors)
 - 5. Refactoring (for example separate login and logout as Cypress Commands)
 - 6. Add tests to the CI / CD pipeline --> in our case it was GitHub, add build number, [Cypress dashboard] (https://www.cypress.io/dashboard/)
